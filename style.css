@@ -85,6 +85,10 @@ ul li button:hover {
     scale: 0.9;
 }
 
+.btn .selected {
+    color: hsl(217, 12%, 63%);
+}
+
 footer button {
     color: hsl(0, 0%, 100%);
     font-size: 15px;
@@ -97,6 +101,10 @@ footer button {
     border-radius: 25px;
     cursor: pointer;
     transition: 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 footer button:hover {
@@ -144,6 +152,12 @@ footer button:hover {
     font-size: 15px;
     padding: 15px 30px;
 }
+
+
+
+
+
+
 
 .attribution { 
     font-size: 11px;
